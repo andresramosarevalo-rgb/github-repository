@@ -15,10 +15,4 @@ public class HelloWorldController {
 
         return "Hello World";
     }
-
-    @GetMapping("/world")
-    public String helloMancera(){
-
-        return "Hello Mancera";
-    }
 }
