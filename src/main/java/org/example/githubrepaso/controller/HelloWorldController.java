@@ -15,4 +15,17 @@ public class HelloWorldController {
 
         return "Hello World";
     }
+
+    @GetMapping)("/mancera")
+    public String helloMancera(){
+
+        return "Hello Mancera";
+    }
+
+    @GetMapping)("/miguel")
+    public String helloMiguel(){
+
+        return "Hello Miguel";
+    }
+
 }
